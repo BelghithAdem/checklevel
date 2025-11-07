@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
-import InputField from '../InputField.vue'
+import InputField from '@/components/auth/InputField.vue'
 
 describe('InputField', () => {
   it('renders properly with required props', () => {

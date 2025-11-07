@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
-import ErrorMessage from '../ErrorMessage.vue'
+import ErrorMessage from '@/components/auth/ErrorMessage.vue'
 
 describe('ErrorMessage', () => {
   it('renders message when show is true', () => {

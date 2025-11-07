@@ -1,5 +1,5 @@
 import { describe, it, expect, beforeEach, afterEach } from 'vitest'
-import { AuthService } from '../AuthService'
+import { AuthService } from '@/services/AuthService'
 import type { IUser } from '@/interfaces/IAuth'
 
 describe('AuthService', () => {

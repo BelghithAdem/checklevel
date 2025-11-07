@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
-import SubmitButton from '../SubmitButton.vue'
+import SubmitButton from '@/components/auth/SubmitButton.vue'
 
 describe('SubmitButton', () => {
   it('renders with label text', () => {

@@ -1,7 +1,7 @@
 import { describe, it, expect, beforeEach, vi } from 'vitest'
 import { mount } from '@vue/test-utils'
 import { createRouter, createMemoryHistory } from 'vue-router'
-import LoginView from '../LoginView.vue'
+import LoginView from '@/views/LoginView.vue'
 import { authService } from '@/services/AuthService'
 
 // Mock the auth service
